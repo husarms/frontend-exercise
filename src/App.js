@@ -1,12 +1,10 @@
 import './App.css';
+import BlogView from './views/BlogView.js';
 
 function App() {
   return (
     <div className="root">
-      <header>
-        <h2>two chairs frontend exercise</h2>
-        <p>Please replace this with your solution!</p>
-      </header>
+      <BlogView />
     </div>
   );
 }
